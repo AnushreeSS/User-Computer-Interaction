@@ -1,0 +1,71 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>* RENAME * AS *</pattern>
+      <template>
+                 rename <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>RENAME * AS *</pattern>
+      <template>rename <star index = "1"/> <star index = "2"/></template>  
+   </category>
+   <category>
+      <pattern>* RENAME THE FILE * AS *</pattern>
+      <template>
+                 rename <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>  
+   <category>
+      <pattern>RENAME THE FILE * AS *</pattern>
+      <template>
+                 rename <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category> 
+   <category>
+      <pattern>* RENAME FILE * AS *</pattern>
+      <template>
+                 rename <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category> 
+   <category>
+      <pattern>RENAME FILE * AS *</pattern>
+      <template>
+                 rename <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category>   
+   
+   <category>
+      <pattern>* RENAME * TO *</pattern>
+      <template>
+                 rename <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>RENAME * TO *</pattern>
+      <template>rename <star index = "1"/> <star index = "2"/></template>  
+   </category>
+   <category>
+      <pattern>* RENAME THE FILE * TO *</pattern>
+      <template>
+                 rename <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>  
+   <category>
+      <pattern>RENAME THE FILE * TO *</pattern>
+      <template>
+                 rename <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category> 
+   <category>
+      <pattern>* RENAME FILE * TO *</pattern>
+      <template>
+                 rename <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category> 
+   <category>
+      <pattern>RENAME FILE * TO *</pattern>
+      <template>
+                 rename <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category>   
+</aiml>

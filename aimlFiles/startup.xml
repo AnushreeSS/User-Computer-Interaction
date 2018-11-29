@@ -1,0 +1,34 @@
+<aiml version="1.0" encoding = "UTF-8">
+<category>
+    <pattern>LOAD AIML B</pattern>
+    <template>
+        <learn>basic.aiml</learn>
+
+        <learn>create.aiml</learn>
+
+        <learn>list.aiml</learn>
+
+        <learn>play.aiml</learn>
+
+        <learn>move.aiml</learn>
+
+        <learn>open.aiml</learn>
+
+        <learn>browse.aiml</learn>
+
+        <learn>delete.aiml</learn>
+
+        <learn>rename.aiml</learn>
+
+        <learn>search.aiml</learn>
+
+        <learn>crypt.aiml</learn>
+
+        <learn>decrypt.aiml</learn>
+
+        <learn>encrypt.aiml</learn>
+
+        <learn>help.aiml</learn>
+    </template>
+</category>
+</aiml>

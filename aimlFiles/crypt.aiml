@@ -1,0 +1,372 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<category>
+        <pattern> * ENCRYPT THE FILE * WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH THE MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*" *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH MESSAGE *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH THE MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH THE MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH THE MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH THE MESSAGE *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH THE MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH A MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH A MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH A MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH A MESSAGE *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE NO</template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * </pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE NO</template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern> * ENCRYPT THE FILE * WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT A FILE WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN IMAGE FILE WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern> * ENCRYPT AN AUDIO FILE WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH THE MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT * WITH MESSAGE "*"</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+        <category>
+        <pattern>* ENCRYPT * WITH A "*" MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH A "*" MESSAGE</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT THE FILE * WITH A "*" MESSSAGE</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT A FILE WITH A "*" MESSAGE</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN IMAGE FILE WITH A "*" MESSAGE</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN AUDIO FILE WITH A "*" MESSAGE</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT THE FILE * WITH A "*" MESSSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT A FILE WITH A "*" MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN IMAGE FILE WITH A "*" MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN AUDIO FILE WITH A "*" MESSAGE *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH A * MESSAGE *</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT * WITH A * MESSAGE</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT THE FILE * WITH A * MESSSAGE</pattern>
+        <template>ENCRYPT <star index="2"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT A FILE WITH A * MESSAGE</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN IMAGE FILE WITH A * MESSAGE</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN AUDIO FILE WITH A * MESSAGE</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT THE FILE * WITH A * MESSSAGE *</pattern>
+        <template>ENCRYPT <star index="1"/> MESSAGE <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT A FILE WITH A * MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN IMAGE FILE WITH A * MESSAGE *</pattern>
+        <template>ENCRYPT IMAGE MESSAGE <star index="2"/> </template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN AUDIO FILE WITH A * MESSAGE *</pattern>
+        <template>ENCRYPT AUDIO MESSAGE <star index="2"/> </template>
+    </category>
+
+    <category>
+        <pattern>* ENCRYPT A FILE</pattern>
+        <template>ENCRYPT IMAGE MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN IMAGE FILE</pattern>
+        <template>ENCRYPT IMAGE MESSAGE NO</template>
+    </category>
+    <category>
+        <pattern>* ENCRYPT AN AUDIO FILE</pattern>
+        <template>ENCRYPT AUDIO MESSAGE NO</template>
+    </category>
+
+</aiml>

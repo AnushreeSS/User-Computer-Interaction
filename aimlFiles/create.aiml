@@ -1,0 +1,154 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>CREATE *</pattern>
+        <template>create <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>CREATE THE FILE *</pattern>
+        <template>create <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE *</pattern>
+        <template>create <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE THE FILE *</pattern>
+        <template>create <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE * IN *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE THE FILE * IN *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE THE FILE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    
+    <category>
+        <pattern>CREATE * IN *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE THE FILE * IN *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE THE FILE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>CREATE A FILE *</pattern>
+        <template>create <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FILE *</pattern>
+        <template>create <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE * IN *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FILE * IN *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FILE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    
+    <category>
+        <pattern>CREATE * IN *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE A FILE * IN *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE A FILE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE * IN THE FOLDER *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>CREATE A FILE NAMED *</pattern>
+        <template>create <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FILE NAMED *</pattern>
+        <template>create <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>CREATE A FILE NAMED * IN *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE A FILE NAMED * IN THE FOLDER *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* CREATE A FILE NAMED * IN *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FILE NAMED * IN THE FOLDER *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>CREATE A FOLDER NAMED *</pattern>
+        <template>create <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FOLDER NAMED *</pattern>
+        <template>create <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>CREATE A FOLDER NAMED * IN *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>CREATE A FOLDER NAMED * IN THE FOLDER *</pattern>
+        <template>create1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* CREATE A FOLDER NAMED * IN *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A FOLDER NAMED * IN THE FOLDER *</pattern>
+        <template>create1 <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>CREATE A *</pattern>
+        <template>create <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>* CREATE A *</pattern>
+        <template>create <star index="2"/></template>
+    </category>
+</aiml>

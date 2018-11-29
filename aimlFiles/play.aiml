@@ -1,0 +1,169 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>PLAY *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>PLAY * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY * FROM *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY * FROM THE FOLDER *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE SONG *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE SONG *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>PLAY THE SONG * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE SONG * FROM *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE SONG * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE SONG * FROM THE FOLDER *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE MUSIC *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE MUSIC *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>PLAY THE MUSIC * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE MUSIC * FROM *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE MUSIC * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE MUSIC * FROM THE FOLDER *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE VIDEO *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE VIDEO *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>PLAY THE VIDEO * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE VIDEO * FROM *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE VIDEO * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE VIDEO * FROM THE FOLDER *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE CLIP *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE CLIP *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>PLAY THE CLIP * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE CLIP * FROM *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE CLIP * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE CLIP * FROM THE FOLDER *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE SONG * FROM THE DIRECTORY *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE SONG * FROM THE DIRECTORY *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	
+	<category>
+        <pattern>PLAY THE MUSIC * FROM THE DIRECTORY *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE MUSIC * FROM THE DIRECTORY *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE VIDEO * FROM THE DIRECTORY *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE VIDEO * FROM THE DIRECTORY *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+	<category>
+        <pattern>PLAY THE CLIP * FROM THE DIRECTORY *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	<category>
+        <pattern>* PLAY THE CLIP * FROM THE DIRECTORY *</pattern>
+        <template>open <star index="2"/> <star index="3"/></template>
+    </category>
+	
+</aiml>

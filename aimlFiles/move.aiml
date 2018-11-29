@@ -1,0 +1,68 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>MOVE * FROM * TO *</pattern>
+        <template>move1 <star index="1"/> <star index="2"/> <star index="3"/></template>
+    </category>
+     <category>
+        <pattern>* MOVE * FROM * TO *</pattern>
+        <template>move1 <star index="2"/> <star index="3"/> <star index="4"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE * FROM * TO THE FOLDER *</pattern>
+        <template>move1 <star index="2"/> <star index="3"/> <star index="4"/></template>
+    </category>
+    <category>
+        <pattern>MOVE * FROM * TO THE FOLDER *</pattern>
+        <template>move1 <star index="1"/> <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE THE FILE * FROM * TO *</pattern>
+        <template>move1 <star index="2"/> <star index="3"/> <star index="4"/></template>
+    </category>
+    <category>
+        <pattern>MOVE THE FILE * FROM * TO *</pattern>
+        <template>move1 <star index="1"/> <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE THE FILE * FROM * TO THE FOLDER *</pattern>
+        <template>move1 <star index="2"/> <star index="3"/> <star index="4"/></template>
+    </category>
+    <category>
+        <pattern>MOVE THE FILE * FROM * TO THE FOLDER *</pattern>
+        <template>move1 <star index="1"/> <star index="2"/> <star index="3"/></template>
+    </category>
+    
+    
+    <category>
+        <pattern>MOVE * TO *</pattern>
+        <template>move <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE * TO *</pattern>
+        <template>move <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE THE FILE * TO *</pattern>
+        <template>move <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>MOVE THE FILE * TO *</pattern>
+        <template>move <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE THE FILE * TO THE FOLDER *</pattern>
+        <template>move <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>MOVE THE FILE * TO THE FOLDER *</pattern>
+        <template>move <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* MOVE * TO THE FOLDER *</pattern>
+        <template>move <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>MOVE * TO THE FOLDER *</pattern>
+        <template>move <star index="1"/> <star index="2"/></template>
+    </category>    
+</aiml>

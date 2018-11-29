@@ -1,0 +1,38 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>* BROWSE * </pattern>
+      <template>
+                 browse <star index = "2"/> 
+      </template>  
+   </category>
+   <category>
+      <pattern>* BROWSE FOR * </pattern>
+      <template>
+                 browse <star index = "2"/> 
+      </template>  
+   </category>
+   <category>
+      <pattern>BROWSE * </pattern>
+      <template>
+                 browse <star index = "1"/> 
+      </template>  
+   </category>
+   <category>
+      <pattern>BROWSE FOR * </pattern>
+      <template>
+                 browse <star index = "1"/> 
+      </template>  
+   </category>
+	<category>
+      <pattern>* LOOK UP * </pattern>
+      <template>
+                 browse <star index = "2"/> 
+      </template>  
+   </category>
+   <category>
+      <pattern>LOOK UP * </pattern>
+      <template>
+                 browse <star index = "1"/> 
+      </template>  
+   </category>
+</aiml>

@@ -1,0 +1,546 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>* SEARCH * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE  * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* SEARCH THE FILE * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>* SEARCH FOR * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* SEARCH FOR THE FILE * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>SEARCH FOR * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>SEARCH FOR THE FILE * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>SEARCH * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>LOOK FOR * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>
+    </category>
+	<category>
+      <pattern>LOOK FOR THE FILE * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>
+    </category>
+    <category>
+    <pattern>* LOOK FOR * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* LOOK FOR THE FILE * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>* FIND * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* FIND THE FILE * </pattern>
+      <template>
+                 search <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>FIND * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+		<category>
+      <pattern>FIND THE FILE * </pattern>
+      <template>
+                 search <star index = "1"/>
+      </template>  
+    </category>
+	
+	<category>
+      <pattern>* SEARCH * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE  * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* SEARCH THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>* SEARCH FOR * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* SEARCH FOR THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>SEARCH FOR * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>SEARCH FOR THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>SEARCH * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>LOOK FOR * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+	<category>
+      <pattern>LOOK FOR THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+    <category>
+    <pattern>* LOOK FOR * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* LOOK FOR THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>* FIND * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* FIND THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>FIND * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+		<category>
+      <pattern>FIND THE FILE * IN *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	
+		<category>
+      <pattern>* SEARCH * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE  * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* SEARCH THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>* SEARCH FOR * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* SEARCH FOR THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>SEARCH FOR * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>SEARCH FOR THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>SEARCH * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>LOOK FOR * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+	<category>
+      <pattern>LOOK FOR THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+    <category>
+    <pattern>* LOOK FOR * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* LOOK FOR THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>* FIND * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* FIND THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>FIND * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+		<category>
+      <pattern>FIND THE FILE * STARTING FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	
+		<category>
+      <pattern>* SEARCH * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE  * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* SEARCH THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>* SEARCH FOR * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* SEARCH FOR THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>SEARCH FOR * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>SEARCH FOR THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>SEARCH * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>LOOK FOR * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+	<category>
+      <pattern>LOOK FOR THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+    <category>
+    <pattern>* LOOK FOR * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* LOOK FOR THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>* FIND * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* FIND THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>FIND * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+		<category>
+      <pattern>FIND THE FILE * FROM *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	
+		<category>
+      <pattern>* SEARCH * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE  * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* SEARCH THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>* SEARCH FOR * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* SEARCH FOR THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+    <pattern>SEARCH FOR * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>SEARCH FOR THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>SEARCH * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>SEARCH THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>LOOK FOR * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+	<category>
+      <pattern>LOOK FOR THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>
+    </category>
+    <category>
+    <pattern>* LOOK FOR * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+    <pattern>* LOOK FOR THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>* FIND * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+	<category>
+      <pattern>* FIND THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "2"/> <star index = "3"/>
+      </template>  
+    </category>
+    <category>
+      <pattern>FIND * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+		<category>
+      <pattern>FIND THE FILE * IN THE FOLDER *</pattern>
+      <template>
+                 search1 <star index = "1"/> <star index = "2"/>
+      </template>  
+    </category>
+</aiml>

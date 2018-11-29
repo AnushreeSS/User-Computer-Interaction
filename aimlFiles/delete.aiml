@@ -1,0 +1,153 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>* DELETE *</pattern>
+      <template>
+                 delete <star index = "2"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>DELETE *</pattern>
+      <template>
+                 delete <star index = "1"/>
+      </template>  
+   </category> 
+	<category>
+      <pattern>* DELETE THE FILE *</pattern>
+      <template>
+                 delete <star index = "2"/>
+      </template>  
+   </category>
+	<category>
+      <pattern>DELETE THE FILE *</pattern>
+      <template>
+                 delete <star index = "1"/>
+      </template>  
+   </category>
+   
+   <category>
+      <pattern>* DELETE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>DELETE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category> 
+	<category>
+      <pattern>* DELETE THE FILE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+	<category>
+      <pattern>DELETE THE FILE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category>
+   
+   
+   <category>
+      <pattern>* DELETE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>DELETE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category> 
+	<category>
+      <pattern>* DELETE THE FILE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+	<category>
+      <pattern>DELETE THE FILE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category>
+   
+   <category>
+      <pattern>* REMOVE *</pattern>
+      <template>
+                 delete <star index = "2"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>REMOVE *</pattern>
+      <template>
+                 delete <star index = "1"/>
+      </template>  
+   </category> 
+	<category>
+      <pattern>* REMOVE THE FILE *</pattern>
+      <template>
+                 delete <star index = "2"/>
+      </template>  
+   </category>
+	<category>
+      <pattern>REMOVE THE FILE *</pattern>
+      <template>
+                 delete <star index = "1"/>
+      </template>  
+   </category>
+   
+   <category>
+      <pattern>* REMOVE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>REMOVE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category> 
+	<category>
+      <pattern>* REMOVE THE FILE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+	<category>
+      <pattern>REMOVE THE FILE * FROM *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category>
+   
+   
+   <category>
+      <pattern>* REMOVE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+   <category>
+      <pattern>REMOVE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category> 
+	<category>
+      <pattern>* REMOVE THE FILE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "2"/> <star index = "3"/>
+      </template>  
+   </category>
+	<category>
+      <pattern>REMOVE THE FILE * FROM THE FOLDER *</pattern>
+      <template>
+                 delete1 <star index = "1"/> <star index = "2"/>
+      </template>  
+   </category>
+</aiml>

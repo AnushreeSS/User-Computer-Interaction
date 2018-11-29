@@ -1,0 +1,26 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<category>
+		<pattern>* HELP *</pattern>
+		<template>help</template>
+	</category>
+	<category>
+		<pattern>HELP *</pattern>
+		<template>help</template>
+	</category>
+	<category>
+		<pattern>WHAT CAN I DO</pattern>
+		<template>help</template>
+	</category>
+	<category>
+		<pattern>WHAT CAN I DO *</pattern>
+		<template>help</template>
+	</category>
+	<category>
+		<pattern>WHAT IS THE USE OF *</pattern>
+		<template>help</template>
+	</category>
+	<category>
+		<pattern> * </pattern>
+		<template>Could you please be more clear!</template>
+	</category>
+</aiml>

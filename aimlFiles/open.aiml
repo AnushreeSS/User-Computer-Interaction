@@ -1,0 +1,53 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>OPEN *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+    <category>
+        <pattern>* OPEN *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* OPEN THE FILE *</pattern>
+        <template>open <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>OPEN THE FILE *</pattern>
+        <template>open <star index="1"/></template>
+    </category>
+	
+	<category>
+        <pattern>OPEN * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* OPEN * FROM *</pattern>
+        <template>open1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* OPEN THE FILE * FROM *</pattern>
+        <template>open1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>OPEN THE FILE * FROM *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>OPEN * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+    <category>
+        <pattern>* OPEN * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>* OPEN THE FILE * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="2"/> <star index="3"/></template>
+    </category>
+    <category>
+        <pattern>OPEN THE FILE * FROM THE FOLDER *</pattern>
+        <template>open1 <star index="1"/> <star index="2"/></template>
+    </category>
+</aiml>
+    

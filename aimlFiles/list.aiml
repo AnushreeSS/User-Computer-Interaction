@@ -1,0 +1,93 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>LIST ALL THE FILES IN *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST ALL THE FILES IN *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST ALL FILES IN *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST ALL FILES IN *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST THE FILES IN *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST THE FILES IN *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST FILES IN *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST FILES IN *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST SOME FILES IN *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST SOME FILES IN *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST ALL THE FILES IN THE FOLDER *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST ALL THE FILES IN THE FOLDER *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST ALL FILES IN THE FOLDER *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST ALL FILES IN THE FOLDER *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST THE FILES IN THE FOLDER *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST THE FILES IN THE FOLDER *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST FILES IN THE FOLDER *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST FILES IN THE FOLDER *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+	<category>
+        <pattern>LIST SOME FILES IN THE FOLDER *</pattern>
+        <template>list <star index="1"/></template>
+    </category>
+	<category>
+        <pattern>* LIST SOME FILES IN THE FOLDER *</pattern>
+        <template>list <star index="2"/></template>
+    </category>
+	
+</aiml>

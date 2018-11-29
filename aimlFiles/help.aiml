@@ -1,0 +1,86 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<category>
+		<pattern>* HELP * </pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>WHAT *</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>HELP *</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>* HELP</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>HELP</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>* MANUAL *</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>MANUAL * </pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>MANUAL</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>* MANUAL</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>* HELP * </pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>* GUIDE *</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>GUIDE * </pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>GUIDE</pattern>
+		<template>
+                 help
+		</template>  
+	</category>
+	<category>
+		<pattern>* GUIDE</pattern>
+		<template>
+                 help
+		</template>  
+    </category>
+</aiml>

@@ -1,0 +1,16 @@
+I can help you perform the following actions:
+
+File operations:
+>> Open an existing file
+>> Create a new file
+>> Move a file from one location to another
+>> Rename a file
+>> Search a file
+>> Delete a file
+>> List all files in a directory
+>> Steganographic encryption of a message in an audio/image file
+>> Steganographic decryption of a message from an audio/image file
+
+Miscellaneous operations:
+>> Play music
+>> Browse a topic
